@@ -2,6 +2,29 @@
 
 IT 112 · Group 5 · BSIS-2B · Phase 4 Form Submission and Data Insertion
 
+## Phase 4 report
+
+[Open the Phase 4 performance report (PDF)](docs/lab12/Phase-4-Report.pdf)
+
+The report includes the form interface, JavaScript API connection, MongoDB Atlas insertion, GitHub evidence, and individual reflections.
+
+## GitHub commits
+
+[View the complete commit history](https://github.com/kjamesss/Phase-4-Form-Submission-and-Data-Insertion/commits/main/)
+
+- [Frontend and backend API integration](https://github.com/kjamesss/Phase-4-Form-Submission-and-Data-Insertion/commit/ddc4982e1d2c359be03adde428321b4b55c24652)
+- [Performance report and GitHub evidence](https://github.com/kjamesss/Phase-4-Form-Submission-and-Data-Insertion/commit/aee3e0ab041ca4d4dbf539cb7b9e6ade10033b76)
+
+![GitHub screenshot of the frontend and backend integration commit](docs/lab12/github-commits.png)
+
+## GitHub project structure
+
+[Browse the project files](https://github.com/kjamesss/Phase-4-Form-Submission-and-Data-Insertion/tree/main)
+
+The frontend folder contains the pink HTML pages, styles, and form handlers. The backend folder contains Express routes, Mongoose models, server startup, and integration tests. Reports and screenshots are in docs/lab12.
+
+![GitHub screenshot showing the frontend, backend, and documentation folders](docs/lab12/github-structure.png)
+
 ## Run the project
 
 Requires Node.js 22 or later and a running MongoDB database.
@@ -56,7 +79,7 @@ Run npm test for the 11 automated integration tests. These tests start a disposa
 
 ## Documentation and evidence
 
-See docs/lab12/Phase-4-Report.pdf for the performance report. The folder also includes screenshots, the Postman collection, a sanitized Postman test summary, and an Atlas readback export. The database export contains only classroom sample records. The password hash is omitted.
+The [documentation folder](docs/lab12/) includes screenshots, the [Postman collection](docs/lab12/Phase-4.postman_collection.json), a [sanitized Postman test summary](docs/lab12/postman-results.json), and an [Atlas readback export](docs/lab12/atlas-insertion-proof.json). The database export contains only classroom sample records. The password hash is omitted.
 
 The project follows the three Phase 1 collections, Users, Tasks, and Categories. The pink responsive interface continues the Phase 3 design. The report uses portrait pages, black text, and color screenshots.
 
